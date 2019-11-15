@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color:white;
+}
+
+#nav-bar{
+    box-shadow: 5px 10px 8px #888888;
+}
+/*font*/
+.header-font{
+    font-family: 'Fredoka One', cursive;
+}
+.inner-font{
+    font-family: 'Stoke', serif;
+    color:black;
+    font-weight: bold;
+}
+.letter-space{
+	letter-spacing: 1px;
+	font-family: 'Lobster', cursive;
+}
+/*font*/
+/*carousel items*/
+.carousel-inner,.carousel-control-prev,.carousel-control-prev{
+    margin-top:60px;
+}
+
+/*carousel items*/
+/*img of client*/
+.client-pic{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 50%;
+}
+.client-pic img{
+    border-radius: 50%;
+    background-size: cover;
+}
+
+
+/*img of client*/
+/*search & close*/
+#close{
+    margin-top:10px !important;
+    cursor:pointer;
+}
+#search{
+    cursor:pointer;
+}
+/*search & close*/
+/*clients social site*
+#facebook,#insta,#twitter{
+	width:30px;
+	height:30px;
+	font-size:20px;
+	border-radius:50%;
+	padding:5px;
+	color:white;
+}
+
+#facebook{
+	background-color:#4F67A4;
+	border:1px solid #4F67A4;
+	padding-left:5px;
+}
+#insta{
+	background-color:white;
+	color:red;
+	border:1px solid red;
+}
+#github{
+	width:30px;
+	height:30px;
+	font-size:35px;
+	border-radius:50%;
+    color:black;
+    background-color: white;
+    padding:0;
+    background-size:cover;
+
+}
+#twitter{
+	background-color:rgb(212, 27, 20);
+	color:white;
+	border:1px solid rgb(212, 27, 20);
+}
+*/
+
+.client-icon{
+    width:40px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-top:5px;
+    margin-top:10px;
+    font-size:30px !important;
+    color:black;
+}
+#facebook:hover{
+    background-color: #4F67A4;
+    color:white;
+    border:1px solid #4F67A4;
+}
+#insta:hover{
+    background-color: white;
+    color:rgb(224, 21, 21);
+    border:1px solid #ccc;
+}
+#github:hover{
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+#twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    border:1px solid #1DA1F2;
+}
+/*client social site*/
+/*other clients*/
+.client-image{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 3px 2px #888888;
+    border:1px solid #888888;
+    float: left;
+    background-size: cover;
+}
+.client-image img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background-size: cover;
+}
+/*end other clients*/
+/*card coding */
+.card:hover{
+    margin-top:3px;
+    transition: 0.1s;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+/*card coding*/
+#client{
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 0px 0px white;
+}
+
+/*home*//*my social sites*/
+.my-icon{
+    width:40px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-top:5px;
+    padding-left:6px;
+    margin-top:10px;
+    font-size:30px !important;
+    color:white;
+}
+#facebook:hover{
+    background-color: #4F67A4;
+    color:white;
+    border:1px solid #4F67A4;
+}
+#insta:hover{
+    background-color: white;
+    color:rgb(224, 21, 21);
+    border:1px solid #ccc;
+}
+#github:hover{
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+#twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    border:1px solid #1DA1F2;
+}
+/*my social site*/

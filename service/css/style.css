@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color:white;
+}
+
+#nav-bar{
+    box-shadow: 5px 10px 8px #888888;
+}
+/*font*/
+.header-font{
+    font-family: 'Fredoka One', cursive;
+}
+.inner-font{
+    font-family: 'Stoke', serif;
+    color:black;
+    font-weight: bold;
+}
+.letter-space{
+	letter-spacing: 1px;
+	font-family: 'Lobster', cursive;
+}
+/*font*/
+/*search & close*/
+#close{
+    margin-top:10px !important;
+    cursor:pointer;
+}
+#search{
+    cursor:pointer;
+}
+/*search & close*/
+/*top button */
+#top-btn{
+    position:fixed;
+    right:20px;
+    bottom:15px;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+}
+/*top button*/
+/*service coding*/
+#service{
+    border:1px solid #ccc;
+    box-shadow: 2px 2px 0px 0px white;
+}
+/*end service coding*/
+/*home*//*my social sites*/
+.my-icon{
+    width:40px;
+    height:40px;
+    border:1px solid #ccc;
+    padding-top:5px;
+    padding-left:6px;
+    margin-top:10px;
+    font-size:30px !important;
+    color:white;
+}
+#facebook:hover{
+    background-color: #4F67A4;
+    color:white;
+    border:1px solid #4F67A4;
+}
+#insta:hover{
+    background-color: white;
+    color:rgb(224, 21, 21);
+    border:1px solid #ccc;
+}
+#github:hover{
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+#twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    border:1px solid #1DA1F2;
+}
+/*my social site*/

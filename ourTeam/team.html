@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team</title>
+    <link rel="icon" type="image/png" href="img/myLogo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dokdo|Fredoka+One|Playfair+Display+Stoke&display=swap" rel="stylesheet">
+    <script src="javaScript/effect.js"></script>
+    <script src="javaScript/jquery-3.4.1.min.js"></script>
+    <script src="javaScript/wow.min.js"></script>
+</head>
+<body style="background-color: #ccc;">
+   
+   <!--nav bar of home page-->
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark mt-0 mb-0 sticky-top" id="nav-bar">
+        <a href="../index.html" class="navbar-brand">
+            <img src="img/myLogo.png" alt="logo" id="logo" />
+                Developers.Com
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-slider">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-slider">
+            <ul class="navbar-nav text-light float-left">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="../service/service.html" class="nav-link">Service</a></li>
+               <!-- <li class="nav-item"><a href="../pricing/pricing.html" class="nav-link">Pricing</a></li>-->
+                <li class="nav-item"><a href="../client/client.html" class="nav-link">Client</a></li>
+                <li class="nav-item"><a href="team.html" class="nav-link" id="team">Our Team</a></li>
+                <li class="nav-item"><a href="../login/login.html" class="nav-link">Account</a></li>
+            </ul>
+            <ul class="navbar-nav text-light ml-auto">
+                <li class="nav-item d-none" id="search-ele">
+                    <form>
+                        <div class="input-group mt-2">
+                            <input type="search" name="search" class="form-control border border-danger border-right-0" placeholder="Search Here" />
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-danger text-light">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <i class="fa fa-search text-light" style="font-size:25px" id="search"></i>
+                    <i class="fa fa-close text-light d-none" style="font-size:25px" id="close"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end navbar for home page--> 
+    <!--start code for team slider-->
+    <div class="jumbrotron jumbotron-fluid mb-0 mt-2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicators"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicators"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicators"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3" class="indicators"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4" class="indicators"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 h-100" src="img/team22.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 h-100" src="img/team33.jpg" alt="Third slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 h-100" src="img/team44.jpg" alt="fourth slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 h-100" src="img/team11.jpg" alt="fifth slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev text-dark" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+    </div>
+    <!--end code for slider--> 
+    <!--team coding-->
+    <!--start coding for first row-->
+    <div class="container text-center mt-5" style="overflow: hidden;">
+        <h1 class="header-font animated fadeIn slower" style="margin-bottom:100px;" >Meet Our Team</h1>
+        <div class="row mt-5 mb-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="team-member-pics mx-auto">
+                            <img src="img/mem1.jfif" alt="member1">
+                        </div>
+                        <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>Chief Executive Officer (CEO)</h6>
+                        <p class="letter-space" style="text-align: justify;">The attitude of the modern workplace has changed drastically over the years and with that, so have the attitudes of CEOs.when an unknown printer took a galley of type and scrambled it to make a type specimen book <a href="#">Read More</a></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                        <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                        <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                        <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                    <div class="team-member-pics mx-auto">
+                        <img src="img/mem2.jpg" alt="member2">
+                    </div>
+                    <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>Managing Director</h6>
+                    <p class="letter-space" style="text-align: justify;">The attitude of the modern workplace has changed drastically over the years and with that, so have the attitudes of Managing Director.when an unknown printer took a galley of type and scrambled it to make a type specimen book <a href="#" class="text-center">Read More</a></p>
+                </div>
+                <div class="card-footer">
+                    <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                    <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                    <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                    <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                    <div class="team-member-pics mx-auto">
+                        <img src="img/mem3.jfif" alt="member1">
+                    </div>
+                        <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>One of our Best App Developer,Specialy for android</h6> 
+                        <p class="letter-space" style="text-align: justify;">
+                                He complete his B.tech from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                                <a href="#">Read More</a>
+                        </p>
+                    </div>
+                <div class="card-footer">
+                    <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                    <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                    <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                    <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--end first row for team-->
+        <!--start second row for team-->
+        <div class="row" style="margin-top:100px;margin-bottom: 100px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="team-member-pics mx-auto">
+                                <img src="img/mem4.jpg" alt="member4">
+                            </div>
+                            <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>One of our Best App Developer,Specialy for Desktop app</h6> <p class="letter-space">
+                                    He complete his B.tech from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                                    <a href="#">Read More</a>
+                                </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                            <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                            <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                            <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="team-member-pics mx-auto">
+                            <img src="img/mem5.jpg" alt="member5">
+                        </div>
+                        <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>One of our Best App Developer,Specialy for IOS app</h6> <p class="letter-space">
+                                He complete his B.tech from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a app developer<br />
+                                <a href="#">Read More</a>
+                            </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                        <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                        <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                        <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="team-member-pics mx-auto">
+                            <img src="img/mem6.jpg" alt="member6">
+                        </div>
+                            <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>One of our Best Web Developer,He is also good in C,C++</h6>
+                            <p class="letter-space">
+                                He complete his Graduation from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                        <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                        <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                        <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!--end second row for team-->
+        <!--start third row for team-->
+        <div class="row" style="margin-top:100px;margin-bottom: 100px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="team-member-pics mx-auto">
+                                <img src="img/mem7.jpg" alt="member7">
+                            </div>
+                            <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>Project Head</h6>
+                            <p class="letter-space">
+                                        He complete his Graduation from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                                        <a href="#">Read More</a>
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                            <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                            <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                            <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="team-member-pics mx-auto">
+                            <img src="img/mem8.jpg" alt="member8">
+                        </div>
+                        <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>Managing Director</h6>
+                        <p class="letter-space">
+                            He complete his Graduation from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                            <a href="#">Read More</a>
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                        <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                        <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                        <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <div class="team-member-pics mx-auto">
+                            <img src="img/mem9.jpg" alt="member9">
+                        </div>
+                            <h3 class="inner-font mt-3">Mr.UVXW</h3><h6>Managing Director</h6>
+                            <p class="letter-space">
+                                He complete his Graduation from <a href="#" style="text-decoration: none;"><b>CHITKARA UNIVERSITY</b></a>,Baddi Campus.Then He complete his M.tech from <a href="#" style="text-decoration: none;"><b>IIT KANPUR.</b></a>After M.tech he Join our company As a web developer<br />
+                                <a href="#">Read More</a>
+                            </p>
+                        </div>
+                    <div class="card-footer">
+                        <a href="#"><i class="fa fa-facebook ml-3 client-icon" id="facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram ml-3 client-icon" id="insta"></i></a>
+                        <a href="#"><i class="fa fa-github ml-3 client-icon" id="github"></i></a>
+                        <a href="#"><i class="fa fa-twitter ml-3 client-icon" id="twitter"></i></a>
+                        <a href="#"><i class="fa fa-phone ml-3 client-icon" id="phone"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <!--end third row for team-->
+    </div>
+    <!--end team coding-->
+    	<!--start contact Us-->
+	<div class="jumbotron jumbotron-fluid bg-dark text-light mb-0" style="margin-top:100px;">
+            <h1 class="header-font text-center p-0 m-0">Contact Us</h1>
+            <div class="row px-3 mt-3">
+                <div class="col-md-4 border-1">
+                    <h3>Any Query ?</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="yourname"></label>
+                            <input type="text" name="Username" class="form-control" placeholder="Your Name?" id="yourname" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="yourmail"></label>
+                            <input type="email" name="Email" class="form-control" placeholder="Your Email?" id="yourmail" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="yourphone"></label>
+                            <input type="number" name="Phone" class="form-control" placeholder="Your Phone?" id="yourphone" required="required" />
+                        </div>
+                        <textarea rows="5" cols="65" placeholder="Ask Your Question Here?"></textarea>
+                        <input type="submit" value="Send Us" class="btn btn-info mt-3 float-left" data-toggle="modal" data-target="#contact-modal" id="modal-submit-btn" />
+                    </form>
+                </div>
+                <div class="col-md-4 mt-2  border-1">
+                    <h5 class="mb-0 float-left">Address:</h5>
+                    <address style="clear:left">Vill+P.O:-Bhemua,P.S:-Sabang,Dist:-Paschim Medinipur,<br />West Bengal</address>
+                    <h5 class="mb-0 float-left">Contact Number:</h5>
+                    <address style="clear:left">+91 7076431876 or <br />+91 6296624746</address>
+                    <h5 class="mb-0 float-left">Email Id:</h5>
+                    <address style="clear:left">togmaparu@gmail.com<br />gmaparu.cse18@chitkarauniversity.edu.in</address>
+                    <div class="mt-5">
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook ml-3 my-icon" id="facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram ml-3 my-icon" id="insta"></i></a>
+                        <a href="https://github.com/"><i class="fa fa-github ml-3 my-icon" id="github"></i></a>
+                        <a href="https://twitter.com/login?lang=en"><i class="fa fa-twitter ml-3 my-icon text-light" id="twitter"></i></a>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Sitelink</h5>
+                    <p><a class="anchor text-light" href="#">About Us</a></p>
+                    <p><a class="anchor text-light" href="#">Feedback</a></p>
+                    <p><a class="anchor text-light" href="#">Privacy policy</a></p>
+                    <p><a class="anchor text-light" href="#">Terms of use</a></p>
+                    <p><a class="anchor text-light" href="#">Testimonials</a></p>
+                </div>
+            </div>
+            <p class="float-right mr-5">Developed by <span style='font-size:20px;color:red'>&#9829;</span> Gurucharan</p>
+        </div>
+        <!--end contact Us-->
+    <!--contact modal-->
+        <div class="modal animated fadeIn slower mt-5" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header text-center">
+                      <h2 class="modal-title" id="exampleModalLabel" class="header-font">Developers.Com</h2>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <h5 class="header-font" id="thanks-user"></h5> 
+                      <span class="letter-space">We'll contact you as soon as possible</span>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <a href="../login/login.html" class="btn btn-primary">Join Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <!--contact modal-->
+        <script>
+                function username(){
+                    var name = document.getElementById("yourname").value;
+                    var thanks_user = document.getElementById("thanks-user");
+                    thanks_user.innerHTML = "Thanks Mr."+" "+ name;
+                }
+                document.querySelector("#modal-submit-btn").onclick = function(e){
+                    e.preventDefault();
+                    username();
+                }
+            </script>
+</body>
+</html>
